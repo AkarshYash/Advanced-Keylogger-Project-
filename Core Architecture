@@ -1,0 +1,14 @@
+project/
+├── core/
+│   ├── keylogger.py        # Basic keylogging functionality
+│   ├── screenshot.py       # Screen capture module
+│   ├── exfiltration.py     # Data transmission
+│   └── stealth.py          # Anti-detection techniques
+├── analytics/
+│   ├── behavioral.py       # ML pattern detection
+│   └── visualization.py    # Data presentation
+├── config/
+│   └── settings.ini        # Configuration files
+└── utils/
+    ├── encryption.py       # Crypto functions
+    └── system.py          # OS interactions
