@@ -1,14 +1,27 @@
-project/
+advanced-keylogger-project/
+├── README.md
+├── main.py
+├── requirements.txt
+├── ethics/
+│   └── legal.py
 ├── core/
-│   ├── keylogger.py        # Basic keylogging functionality
-│   ├── screenshot.py       # Screen capture module
-│   ├── exfiltration.py     # Data transmission
-│   └── stealth.py          # Anti-detection techniques
+│   ├── __init__.py
+│   ├── keylogger.py
+│   ├── screenshot.py
+│   ├── exfiltration.py
+│   ├── stealth.py
+│   └── clipboard.py
 ├── analytics/
-│   ├── behavioral.py       # ML pattern detection
-│   └── visualization.py    # Data presentation
+│   ├── __init__.py
+│   ├── behavioral.py
+│   └── visualization.py
 ├── config/
-│   └── settings.ini        # Configuration files
-└── utils/
-    ├── encryption.py       # Crypto functions
-    └── system.py          # OS interactions
+│   └── settings.ini
+├── utils/
+│   ├── __init__.py
+│   ├── encryption.py
+│   └── system.py
+└── tests/
+    ├── __init__.py
+    ├── test_keylogger.py
+    └── test_encryption.py
